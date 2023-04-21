@@ -126,3 +126,44 @@ I used combn to get all the combinaros of x1,x2,x3,x3. Here are RSS values calcu
 [1] "Subset: x1, x2, x3, x4 : 0.192863541483844"
 ```
 The best one with minimal RSS value is Y ~ x1 + x2 + x3 + x4.
+
+## Work3
+Summary of model:
+```
+lm(formula = calAge ~ Depth + Weight, data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-1195.2  -517.1  -136.5   590.9  1275.8 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)
+(Intercept)  2401.142    475.262   5.052 0.000688 ***
+Depth          20.735      1.061  19.535 1.12e-08 ***
+Weight      -1894.163    709.761  -2.669 0.025676 *
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 808 on 9 degrees of freedom
+Multiple R-squared:  0.9773,    Adjusted R-squared:  0.9722
+F-statistic: 193.3 on 2 and 9 DF,  p-value: 4.036e-08
+```
+
+The coefficients of the model indicate that, holding all other variables constant, a one-unit increase in "Depth" is associated with a 20.735 unit increase in "calAge," and a one-unit increase in "Weight" is associated with a 1894.163 unit decrease in "calAge."
+```
+calAge = 2401.142 + 20.735Depth - 1894.163Weight + error
+```
+The multiple R-squared of the model is 0.9773, indicating that the model explains 97.73% of the variance in "calAge." The adjusted R-squared is slightly lower at 0.9722, indicating that the adjusted R-squared accounts for the number of predictors in the model.
+
+## Work4
+Regression model for longley:
+
+![avatar](Residuals.png)
+![avatar](Residuals-TQ.png)
+![avatar](Residuls-fitted.png)
+![avatar](Residuls-Leverage.png)
+
+Ridge predction mse with different lambda value:
+
+![avatar](MSE-lambda.png)
+
