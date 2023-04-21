@@ -23,6 +23,6 @@ for (i in 1:4)
     for (j in 1:length(subsets[[i]])) 
     {
         outcol <- toString(colnames(X[subsets[[i]][[j]]]))
-        print(paste("Subste:", outcol, ":", rss_vals[[i]][j]))
+        print(paste("Subset:", outcol, ":", rss_vals[[i]][j]))
     }
 }
