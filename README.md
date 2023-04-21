@@ -199,4 +199,27 @@ And we get the average profit of each quater:
 The fourth quarter has lowest profit and the third quarter has the highest profit.
 
 ## Work7
+![avatar](sunspot.png)
+
+## Work8
+We get the output from the regerssion model predictions ofUKgas in 2016 individually:
+```
+[1] "Quater1 in 2016 pred: 2230.93591778592"
+[1] "Quater2 in 2016 pred: 1076.88492063492"
+[1] "Quater3 in 2016 pred: 505.936752136751"
+[1] "Quater4 in 2016 pred: 1677.39161579161"
+[1] "In total: 5491.149"
+```
+
+And we get the average profit of each quater:
+```
+[1] "Quater1 average from 1960 to 2016: 1104.75301180302"
+[1] "Quater2 average from 1960 to 2016: 571.751587301585"
+[1] "Quater3 average from 1960 to 2016: 285.023931623931"
+[1] "Quater3 average from 1960 to 2016: 833.398453398452"
+```
+
+The third quarter has lowest profit and the first quarter has the highest profit.
+
+## Work9
 
