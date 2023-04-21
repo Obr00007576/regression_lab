@@ -106,4 +106,23 @@ R is defined as followed:
 
 So, when the R or R-squared approaches 1, it means that the SSE is small enough to fit the real distribution compared to SST.
 
-
+## Work2
+I used combn to get all the combinaros of x1,x2,x3,x3. Here are RSS values calculated by each combinator regression model:
+```
+[1] "Subset: x1 : 157.219775828453"
+[1] "Subset: x2 : 268.245770839922"
+[1] "Subset: x3 : 393.490468605497"
+[1] "Subset: x4 : 394.590497460393"
+[1] "Subset: x1, x2 : 0.537961710578259"
+[1] "Subset: x1, x3 : 156.354065745632"
+[1] "Subset: x1, x4 : 157.21926831528"
+[1] "Subset: x2, x3 : 267.79545424301"
+[1] "Subset: x2, x4 : 267.806136130255"
+[1] "Subset: x3, x4 : 393.458728053751"
+[1] "Subset: x1, x2, x3 : 0.332266214973758"
+[1] "Subset: x1, x2, x4 : 0.361968248277299"
+[1] "Subset: x1, x3, x4 : 156.348339703843"
+[1] "Subset: x2, x3, x4 : 267.441547194395"
+[1] "Subset: x1, x2, x3, x4 : 0.192863541483844"
+```
+The best one with minimal RSS value is Y ~ x1 + x2 + x3 + x4.
