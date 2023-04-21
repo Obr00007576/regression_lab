@@ -167,3 +167,13 @@ Ridge predction mse with different lambda value:
 
 ![avatar](MSE-lambda.png)
 
+## Work5
+![avatar](Stock.png)
+R valure for each stock market:
+```
+1    DAX    0.733004360597276
+2    SMI    0.794256076389544
+3    CAC    0.530036807969691
+4   FTSE    0.848090598583659
+```
+FTSE has the most dynamics.
