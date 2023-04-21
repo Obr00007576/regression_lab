@@ -177,3 +177,26 @@ R valure for each stock market:
 4   FTSE    0.848090598583659
 ```
 FTSE has the most dynamics.
+
+## Work6
+We get the output from the regerssion model predictions of profit of 4 quaters in 2016 individually:
+```
+[1] "Quater1 in 2016 pred: 36.759636363636"
+[1] "Quater2 in 2016 pred: 36.4894545454542"
+[1] "Quater3 in 2016 pred: 37.653939393939"
+[1] "Quater4 in 2016 pred: 28.7939134199132"
+[1] "In total: 139.696943722942"
+```
+
+And we get the average profit of each quater:
+```
+[1] "Quater1 average from 1960 to 2016: 17.3007272727273"
+[1] "Quater2 average from 1960 to 2016: 17.3010909090909"
+[1] "Quater3 average from 1960 to 2016: 17.932121212121"
+[1] "Quater3 average from 1960 to 2016: 13.8164588744588"
+```
+
+The fourth quarter has lowest profit and the third quarter has the highest profit.
+
+## Work7
+
