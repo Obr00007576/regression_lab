@@ -222,4 +222,7 @@ And we get the average profit of each quater:
 The third quarter has lowest profit and the first quarter has the highest profit.
 
 ## Work9
-
+We get the output result from the regression model:
+```
+[1] "Predicted dist: 139.717255474453"
+```
